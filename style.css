@@ -1,7 +1,17 @@
+.header {
+  position:fixed;
+  top:0;left:0;
+  width:100%;
+  background-color:#800021;
+  padding-bottom:20px;
+}
+
 h2 {
   font-family: Roboto;
   color: #d4af37;
   font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 15px;
 }
 
 .nav >a {
@@ -10,7 +20,7 @@ h2 {
   font-size: 24px;
   text-decoration: none;
   text-transform: uppercase;
-  padding:10px 10px 0px 10px;
+  padding:0px 10px 0px 10px;
   font-weight: 200;
 }
 
@@ -20,4 +30,21 @@ h2 {
 
 .section {
   padding-top: 120px;
+}
+
+h1 {
+  margin:10px;
+}
+
+h1 > a {
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 28pt;
+}
+
+h3 {
+  color: #800021;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 18pt;
 }
