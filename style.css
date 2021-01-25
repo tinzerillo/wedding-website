@@ -6,6 +6,10 @@
   padding-bottom:20px;
 }
 
+.content {
+  margin-top:150px;
+}
+
 h2 {
   font-family: Roboto;
   color: #d4af37;
@@ -48,4 +52,30 @@ h3 {
   font-family: Roboto;
   font-weight: 500;
   font-size: 18pt;
+}
+
+@media screen and (max-width: 600px) {
+  .navitem {
+    display: block;
+  }
+
+  .nav {
+    margin-top:-15px;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .header {
+    padding-bottom: 10px;
+  }
+
+  .content {
+    margin-top:170px;
+  }
+
+  .section {
+    padding-top: 140px;
+  }
 }
