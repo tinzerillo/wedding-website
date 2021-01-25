@@ -40,11 +40,12 @@ h1 > a {
   color: #d4af37;
   text-decoration: none;
   font-size: 28pt;
+  font-weight: 300;
 }
 
 h3 {
   color: #800021;
   font-family: Roboto;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 18pt;
 }
