@@ -59,10 +59,24 @@ h3 {
   vertical-align:middle
 }
 
+.btn {
+  font-family: 'Roboto';
+  color: #800021;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #d4af37;
+}
+
 @media screen and (max-width: 600px) {
   .navitem {
     display: block;
-    font-size: 20pt;
+  }
+
+  .nav > a {
+    font-size: 16pt;
   }
 
   .nav {
@@ -84,6 +98,41 @@ h3 {
 
   .content {
     margin-top:170px;
+  }
+
+  .section {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .navitem {
+    display: block;
+  }
+
+  .nav {
+    margin-top:-15px;
+  }
+
+  h1 > a {
+    font-size: 20pt;
+  }
+
+  .nav > a {
+    font-size: 16pt;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .header {
+    padding-bottom: 10px;
+    position: absolute;
+  }
+
+  .content {
+    margin-top:150px;
   }
 
   .section {
