@@ -54,17 +54,27 @@ h3 {
   font-size: 18pt;
 }
 
+.logo {
+  height:75px;
+  vertical-align:middle
+}
+
 @media screen and (max-width: 600px) {
   .navitem {
     display: block;
+    font-size: 20pt;
   }
 
   .nav {
     margin-top:-15px;
   }
 
-  h1 {
-    margin-bottom: 0;
+  h1 > a {
+    font-size: 24pt;
+  }
+
+  .logo {
+    height: 55px;
   }
 
   .header {
